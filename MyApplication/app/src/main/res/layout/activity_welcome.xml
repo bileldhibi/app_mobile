@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/we1"
+    android:orientation="vertical"
+    tools:context=".welcome">
+
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="15sp"
+        android:layout_marginTop="530dp"
+        android:layout_marginEnd="15sp"
+        android:backgroundTint="@color/app"
+        app:cardCornerRadius="50dp"
+        app:cardElevation="10dp">
+
+        <TextView
+            android:id="@+id/connecte"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:padding="16sp"
+            android:text="Se connecter"
+            android:textColor="#EFEFF1"
+            android:textSize="16dp"
+            android:textStyle="bold" />
+
+    </androidx.cardview.widget.CardView>
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="15sp"
+        android:layout_marginTop="19dp"
+        android:layout_marginEnd="15sp"
+        android:backgroundTint="@color/app"
+        app:cardCornerRadius="50dp"
+        app:cardElevation="10dp">
+
+        <TextView
+            android:id="@+id/creation"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:padding="16sp"
+            android:text="création d'un compte"
+            android:textColor="#FBFBFB"
+            android:textSize="16dp"
+            android:textStyle="bold" />
+
+    </androidx.cardview.widget.CardView>
+
+
+</LinearLayout>

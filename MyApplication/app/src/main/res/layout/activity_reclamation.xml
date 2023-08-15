@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.drawerlayout.widget.DrawerLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/drawerReclamation"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/login5"
+    tools:context=".reclamation">
+
+    <com.google.android.material.navigation.NavigationView
+        android:id="@+id/navigationViewReclamation"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_gravity="start"
+        android:theme="@style/navigationTheme"
+        app:headerLayout="@layout/header_menu"
+        app:itemIconSize="30sp"
+        app:menu="@menu/main_menu" />
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="16dp">
+        <ImageView
+            android:id="@+id/menuReclamation"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_margin="15sp"
+            android:src="@drawable/baseline_menu_open_24"
+            app:tint="@color/white" />
+        <TextView
+            android:layout_marginTop="100dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="Nouvelle Réclamation"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+        <EditText
+            android:id="@+id/editTextMachineName"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Nom de la machine" />
+
+        <RadioGroup
+            android:id="@+id/radioGroupStatus"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <RadioButton
+                android:id="@+id/radioButtonWorking"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="En marche" />
+
+            <RadioButton
+                android:id="@+id/radioButtonBroken"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="En panne" />
+        </RadioGroup>
+
+
+        <Button
+            android:id="@+id/buttonSend"
+            android:layout_width="180dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="Envoyer Réclamation"
+            app:cornerRadius="30sp" />
+    </LinearLayout>
+
+</androidx.drawerlayout.widget.DrawerLayout>

@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/listDevice"
+            android:icon="@drawable/baseline_menu_open_24"
+            android:title="Liste des machines" />
+        <item
+            android:id="@+id/addReclamation"
+            android:icon="@drawable/reclamation_24"
+            android:title="Réclamation" />
+        <item
+            android:id="@+id/addCapteurs"
+            android:icon="@drawable/construction_24"
+            android:title="Monitoring des machines" />
+        <item
+            android:id="@+id/addProfil"
+            android:icon="@drawable/account_box_24"
+            android:title="Profil" />
+        <item
+            android:id="@+id/addCapteur1"
+            android:icon="@drawable/baseline_electric_bolt_24"
+            android:title="Contrôle des capteurs" />
+        <item
+            android:id="@+id/addEn"
+            android:icon="@drawable/energy_savings_leaf_24"
+            android:title="Contrôle de la consommation" />
+        <item
+            android:id="@+id/addDéconnexion"
+            android:icon="@drawable/logout_24"
+            android:title="déconnexion" />
+
+    </group>
+
+
+</menu>

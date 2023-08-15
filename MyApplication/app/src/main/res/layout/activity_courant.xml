@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/login5"
+    tools:context=".courant">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="200dp"
+        android:orientation="vertical">
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="30sp"
+            android:layout_marginEnd="30sp"
+            app:cardCornerRadius="60dp"
+            app:cardElevation="10dp">
+
+            <LinearLayout
+                android:id="@+id/shCourant"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="20dp"
+                android:background="@drawable/shape"
+                android:orientation="vertical">
+
+                <ImageView
+                    android:id="@+id/ele3"
+                    android:layout_width="70dp"
+                    android:layout_height="70dp"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_margin="10dp"
+                    android:src="@drawable/courant1" />
+
+                <TextView
+                    android:id="@+id/courant"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="30sp"
+                    android:text="La valeur de courant est : "
+                    android:textAlignment="center"
+                    android:textColor="@color/app"
+                    android:textSize="16sp"
+                    android:textStyle="bold" />
+
+                <Button
+                    android:id="@+id/historyB"
+                    android:layout_width="150dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_marginTop="10sp"
+                    android:layout_marginBottom="10sp"
+                    android:backgroundTint="@color/app"
+                    android:text="Historique"
+                    android:textColor="@color/white"
+                    app:cornerRadius="15sp" />
+
+            </LinearLayout>
+        </androidx.cardview.widget.CardView>
+
+        <Button
+            android:id="@+id/button1"
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="10sp"
+            android:backgroundTint="@color/white"
+            android:drawableLeft="@drawable/arr"
+            android:drawableTint="@color/app"
+            android:text="retour"
+            android:textColor="@color/app"
+            app:cornerRadius="15sp" />
+
+    </LinearLayout>
+
+</ScrollView>

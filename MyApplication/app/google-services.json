@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "138738636628",
+    "firebase_url": "https://esp8266arduino-c7efc-default-rtdb.firebaseio.com",
+    "project_id": "esp8266arduino-c7efc",
+    "storage_bucket": "esp8266arduino-c7efc.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:138738636628:android:461c2261e221f090281ac1",
+        "android_client_info": {
+          "package_name": "com.example.myapplication"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "138738636628-d4r8c28mtn03tctq31lunhi9dgj21o9p.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDjVhLdXkwYwIsjp7izW-3ps2CSZJgW7Sk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "138738636628-d4r8c28mtn03tctq31lunhi9dgj21o9p.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
